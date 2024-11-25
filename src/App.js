@@ -3,7 +3,7 @@ import Banner from './componentes/Banner';
 import Formulario from './componentes/Formulario';
 import Time from './componentes/Time';
 
-function App() {
+export default function App() {
 
   const times = [
     {
@@ -65,5 +65,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
